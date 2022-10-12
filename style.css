@@ -32,3 +32,15 @@ position: absolute;
 bottom: 0;
 
 }
+p{
+    
+    font-weight: 500;
+    color:rgb(122, 120, 120);
+}
+#resume{
+    color:rgb(149, 7, 7);
+
+}
+#resume:hover{
+    color:black;
+}
