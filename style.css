@@ -35,7 +35,7 @@ bottom: 0;
 p{
     
     font-weight: 500;
-    color:rgb(122, 120, 120);
+    
 }
 #resume{
     color:rgb(149, 7, 7);
@@ -43,4 +43,11 @@ p{
 }
 #resume:hover{
     color:black;
+}
+.img{
+    height:25em;
+    width:auto;
+    padding-left:5%; 
+    
+   
 }
