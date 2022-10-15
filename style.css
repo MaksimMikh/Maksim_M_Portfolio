@@ -46,8 +46,10 @@ p{
 }
 .img{
     height:25em;
-    width:auto;
-    padding-left:5%; 
-    
-   
+    width:25em;
+    border-radius:50%;
+}
+#about{
+    display: flex;
+    justify-content: center;
 }
