@@ -14,47 +14,50 @@
 
 <body>
   <div class="container-fluid">
+  <div class="row">
+  <div class="col-12 col-xs-12">
+
+<!--nav-->
+  <div class="container p-5" id="top">
     <div class="row">
-      <ul class="nav">
+      <ul class="nav fixed-top">
         <li class="nav-item">
-          <a class="nav-link" href="#">About Me</a>
+          <a class="nav-link" href="#top">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Experience</a>
+          <a class="nav-link" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#education">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" id="resume" href="#">Download resume</a>
         </li>
       </ul>
     </div>
+  </div>
 
-    <div class="row text-center">
-      <h1 class="header">Maksim's portfolio</a></h1>
+  <!--Photo-->
+  <div class="container p-4">
+    <div class="d-flex justify-content-center">
+      <img src="photos\1.jpg" class="img w-20 h-auto"  alt="Maksim's photo">
     </div>
   </div>
-  <div class="container-fluid" id="about">
-    <div class="row">
-      <img src="photos\1.jpg" class="img" alt="Maksim's photo">
-      <h3 class="info text-wrap" style="width: 50em;">Hi there!<br>
 
+  <!--About me-->
+    <div class="container pt-2">
+      <div class="row">
+      <h3 class="info text-wrap pb-5">Hi there!<br>
         I am a recent graduate from Generation USA Full-Stack Web Developement program. This was a 4-month intensive
         bootcamp focused on both front-end and back-end developement using languages such as JavaScript, HTML/CSS and
         SQL.<br><br>
 
-
         Currently I am seeking a position as a Junior Web Developer, Software Engineer or any entry level engineering
         role. I am currently based out of Denver, Colorado but I am open virtual/remote positions. I aim to start my
         career while continuing my education and personal developement as a developer.<br><br>
-
 
         Aside from work I am typically hiking, snowboarding, traveling and spending time with my wife and
         friends.<br><br>
@@ -63,16 +66,49 @@
       </h3>
     </div>
   </div>
-  <div class="container-fluid">
-    <div class="row">
+
+  <!--Social buttons-->
+  <div class="container d-flex justify-content-center">
+    <div class="d-flex justify-content-space-between">
       <div class="social text-center">
         <a href="https://www.linkedin.com/in/maksim-mikheichyk-1a3017245/"
-          class="fa fa-linkedin fa-5x text-decoration-none p-5"></a>
-        <a href="https://github.com/MaksimMikh" class="fa fa-github fa-5x text-decoration-none"></a>
+          class="fa fa-linkedin fa-5x text-decoration-none p-3"></a>
+        <a href="https://github.com/MaksimMikh" class="fa fa-github fa-5x text-decoration-none p-3"></a>
       </div>
     </div>
   </div>
-  <div class="container-fluid"id="form">
+
+  <!--Skills-->
+  <div class="container d-flex justify-content-center pt-5" id="skills">
+    <div class="row">
+      <div class="col-12">
+<h1>Skills</h1>
+      </div>
+    </div>
+  </div>
+
+  <!--Education-->
+  <div class="container d-flex justify-content-center py-5"id="education">
+    <div class="row">
+      <div class="col-12">
+        <h1>Education</h1>
+      </div>
+    </div>
+  </div>
+
+  <!--Projects-->
+  <div class="container d-flex justify-content-center pb-5"id="projects">
+    <div class="row">
+      <div class="col-12">
+        <h1>Projects</h1>
+      </div>
+    </div>
+  </div>
+
+<!--Feedback form-->
+  <div class="container"id="form">
+    <div class="d-flex justify-content-center pt-3">
+      <div class="col-8">
     <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScfTVgk1K2UTy35HBW4h5IIza6XJbRk229cCRkCfALyRh9TAg/formResponse"
     method="POST">
       
@@ -93,15 +129,21 @@
       <button type="submit" class="btn btn-warning">Submit</button><br><br>
     </form>
   </div>
+  </div>
+  </div>
 
-
-
-
-  <div class="container-fluid" id="footer">
-    <div class="row text-center">
+<!--footer-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 text-center">
       <p>©Maksim Mikheichyk 2022</p>
     </div>
   </div>
+</div>
+
+</div>
+</div>
+</div>
 </body>
 
 </html>

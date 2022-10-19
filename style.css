@@ -4,15 +4,11 @@ body{
 
 .nav{
     justify-content: center;
-    padding-top: 1em;
+    background-color: rgb(232, 231, 229);
 }
-.header{
-   padding-top: 1em; 
-   font-size: 3em;
-   color:rgb(57, 94, 95)
-}
+
 a{
-    font-size: 1.5em ;
+    font-size: 1.3em ;
 }
 .fa{
     color:rgb(161, 27, 27)
@@ -28,12 +24,14 @@ a:hover{
     color:gray;
 }
 #footer{
+    display:flex;
+    justify-content: center;
 position: absolute;
 bottom:auto;
 
 }
 p{
-    
+    font-size: 1em;
     font-weight: 500;
     
 }
@@ -45,14 +43,10 @@ p{
     color:black;
 }
 .img{
-    height:25em;
-    width:25em;
     border-radius:50%;
 }
-#about{
-    display: flex;
-    justify-content: center;
+h3{
+    font-size:1.5em;
 }
-#form{
-    width:30%;
-}
+
+
