@@ -49,6 +49,13 @@ h3{
     font-size:1.5em;
 }
 i{
-    
+
     color:rgb(101, 146, 146);
+}
+em{
+    font-weight: 400;
+}
+h1{
+    color:rgb(72, 72, 71);
+    
 }
