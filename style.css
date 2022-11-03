@@ -1,6 +1,11 @@
+html
+{
+  overflow-x:hidden;
+}
 body{
    /* background-color: rgb(243, 238, 243);*/
    background: linear-gradient(115deg, #ffffff 0%, #5e9197 51%, #0a171c 75%);
+   
 }
 a{
     font-size: 1.3em ;
