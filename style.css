@@ -1,86 +1,105 @@
-html
-{
-  overflow-x:hidden;
+html {
+    overflow-x: hidden;
 }
-body{
-   /* background-color: rgb(243, 238, 243);*/
-   background: linear-gradient(115deg, #ffffff 0%, #5e9197 51%, #0a171c 75%);
-   
+
+body {
+    background: linear-gradient(115deg, #ffffff 0%, #5e9197 51%, #0a171c 75%);
 }
-a{
-    font-size: 1.3em ;
+
+a {
+    font-size: 1.3em;
 }
-#github{
-color:black;
+
+#github {
+    color: black;
 }
-#github:hover{
-    color:rgb(255, 255, 255);
+
+#github:hover {
+    color: rgb(255, 255, 255);
 }
-#linkedin{
-color:#0a66c2;
+
+#linkedin {
+    color: #0a66c2;
 }
-#linkedin:hover{
-    color:rgb(255, 255, 255);
+
+#linkedin:hover {
+    color: rgb(255, 255, 255);
 }
 
 /*nav*/
 
-.nav-link:hover{
-    color:rgb(255, 255, 255);
+.nav-link:hover {
+    color: rgb(255, 255, 255);
 }
-.nav-link{
-    color:rgb(182, 182, 182);
+
+.nav-link {
+    color: rgb(182, 182, 182);
     font-size: larger;
 }
-#footer{
-    display:flex;
+
+#footer {
+    display: flex;
     justify-content: center;
-position: absolute;
-bottom:auto;
-}
-p{
-    font-size: 1.1em;;
-    color:rgb(233, 233, 167);
+    position: absolute;
+    bottom: auto;
 }
 
-#resume{
-    color:rgb(123, 146, 106);
+p {
+    font-size: 1.1em;
+    ;
+    color: rgb(233, 233, 167);
+}
+
+#resume {
+    color: rgb(123, 146, 106);
 
 }
-#resume:hover{
-    color:rgb(255, 255, 255);
-}
-.img{
-    border-radius:5%;
-}
-h3{
-    font-size:1.5em;
-}
-i{
 
-    color:rgb(194, 241, 241);
+#resume:hover {
+    color: rgb(255, 255, 255);
 }
-em{
+
+.img {
+    border-radius: 5%;
+    width:250px;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+i {
+
+    color: rgb(194, 241, 241);
+}
+
+em {
     font-weight: 400;
 }
-h1{
-    color:rgb(215, 215, 160);
-    
+
+h1 {
+    color: rgb(215, 215, 160);
+
 }
-#emailHelp{
-    color:white;
+
+#emailHelp {
+    color: white;
 }
-label{
-    color:beige
+
+label {
+    color: beige
 }
-#message{
-    color:#467479
+
+#message {
+    color: #467479
 }
-.navbar-toggler{
-    color:#212529;
-    margin-right:10px;
+
+.navbar-toggler {
+    color: #212529;
+    margin-right: 10px;
 }
-img{
-    height:350px;
+
+img {
+    height: 350px;
     width: 400px;
 }
